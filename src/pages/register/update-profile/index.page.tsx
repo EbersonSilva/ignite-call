@@ -40,8 +40,6 @@ export default function UpdateProfile() {
   })
 
   const session = useSession()
-
-  console.log(session)
   const router = useRouter()
 
   // Verificação de possiveis erros.
