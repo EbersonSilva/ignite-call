@@ -3,6 +3,12 @@
     "@rocketseat/eslint-config/react",
     "next/core-web-vitals"],
     "rules": {
-      "camelcase": "off"
+      "prettier/prettier": 0,
+      "camelcase": "off",
+      "no-unused-vars": "off",
+      "spaced-comments": "off",
+      "object-shorthand": "off",
+      "no-useless-return": "off",
+      "import/no-duplicates": "off"
     }
 }

@@ -1,9 +1,9 @@
 // /** @return { import("next-auth/adapters").Adapter } */
 
 import { Adapter } from 'next-auth/adapters'
-import { prisma } from '../prisma'
 import { parseCookies, destroyCookie } from 'nookies' // metodo para buscar todos os cookies da aplicação
 import { NextApiRequest, NextApiResponse, NextPageContext } from 'next'
+import { prisma } from '../prisma'
 
 export function PrismaAdapter(
   req: NextApiRequest | NextPageContext['req'],
