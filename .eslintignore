@@ -1,0 +1,3 @@
+# Arquivo para ignorar o Eslint 
+
+*.d.ts
