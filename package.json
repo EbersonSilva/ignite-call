@@ -36,5 +36,18 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.2.0",
     "prisma": "^4.14.0"
-  }
+  },
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EbersonSilva/ignite-call.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EbersonSilva/ignite-call/issues"
+  },
+  "homepage": "https://github.com/EbersonSilva/ignite-call#readme",
+  "description": ""
 }
